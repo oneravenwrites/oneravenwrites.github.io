@@ -100,8 +100,8 @@
 
             <div class="row home-content__main">
                 <h1>
-                I am oneRaven,
-                and I can help you write stuff.<br>
+                Like Rome, this page wasn't built in a day.
+                <br>Come back soon to witness the glory. 
                 
                 </h1>
 
