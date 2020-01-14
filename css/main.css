@@ -828,8 +828,8 @@ input[type="button"].btn--primary {
   background: #bf0000;
   border-color: #bf0000;
   color: #ffffff;
-}
-
+}<p>
+                    
 .btn.btn--primary:hover,
 button.btn--primary:hover,
 input[type="submit"].btn--primary:hover,
@@ -840,8 +840,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-  background: #b51271;
-  border-color: #b51271;
+  background: #bf0000;
+  border-color: #bf0000;
 }
 
 /* button modifiers
