@@ -828,6 +828,7 @@ input[type="button"].btn--primary {
   background: #bf0000;
   border-color: #bf0000;
   color: #ffffff;
+  max-width: 500px;
 }<p>
                     
 .btn.btn--primary:hover,
@@ -840,8 +841,9 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-  background: #bf0000;
+  background: #ff0000;
   border-color: #bf0000;
+  max-width: 500px;
 }
 
 /* button modifiers
@@ -849,7 +851,7 @@ input[type="button"].btn--primary:focus {
 .btn.full-width,
 button.full-width {
   width: 100%;
-  margin-right: 0;
+  margin-right: 50px;
 }
 
 .btn--medium,
@@ -1323,11 +1325,11 @@ input::-moz-focus-inner {
  * ## header logo
  * ------------------------------------------------------------------- */
 .header-logo {
-  z-index: 501;
+  z-index: 5;
   display: inline-block;
   margin: 0;
   padding: 0;
-  position: relative;
+  position: absolute;
   left: 110px;
   top: 50%;
   -webkit-transform: translateY(-50%);
