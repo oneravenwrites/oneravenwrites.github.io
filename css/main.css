@@ -1327,7 +1327,7 @@ input::-moz-focus-inner {
   display: inline-block;
   margin: 0;
   padding: 0;
-  position: absolute;
+  position: relative;
   left: 110px;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -1384,10 +1384,11 @@ input::-moz-focus-inner {
 .header-nav a:active {
   color: white;
 }
-.header-nav h3 {
+.header-nav h2 {
   font-family: "coveslight", sans-serif;
-  font-size: 11px;
+  font-size: 14px;
   line-height: 1.363;
+  position: relative;
   text-transform: uppercase;
   letter-spacing: 0.25rem;
   margin-bottom: 4.8rem;
@@ -1401,7 +1402,7 @@ input::-moz-focus-inner {
 .header-nav__content {
   background: #0c0c0c;
   position: relative;
-  left: 50px;
+  left: 40px;
   opacity: 0;
   visibility: hidden;
 }
