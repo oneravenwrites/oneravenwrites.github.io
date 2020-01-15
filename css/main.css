@@ -1447,6 +1447,16 @@ input::-moz-focus-inner {
   color: #bf0000;
 }
 
+.header-nav__paragraph {
+  font-family: "coveslight", sans-serif;
+  font-size: 1.2rem;
+  color: #dbdbdb;
+  margin: 3.6rem 0 3rem 0;
+  padding: 0 0 1.8rem 0;
+  list-style: none;
+  counter-reset: ctr;
+}
+
 .header-nav__social {
   list-style: none;
   display: inline-block;
