@@ -3185,6 +3185,7 @@ html.no-csstransitions .home-content__main {
 .contact-number {
   font-family: "coveslight", sans-serif;
   font-size: 3rem;
+  color: #bf0000;
   line-height: 1.7;
   display: block;
 }
@@ -3503,7 +3504,7 @@ html.no-csstransitions .home-content__main {
   }
 
   .cl-go-top {
-    right: 25px;
+    right: 10%;
     bottom: 7.2rem;
   }
 }
@@ -3525,6 +3526,12 @@ html.no-csstransitions .home-content__main {
     margin-bottom: 1.8rem;
   }
 
+  .cl-go-top {
+    bottom: 12rem;
+    right: 10%;
+    margin-right: -10px;
+  }
+  
   .cl-copyright {
     margin-top: 0;
   }
@@ -3566,8 +3573,8 @@ html.no-csstransitions .home-content__main {
 
   .cl-go-top {
     bottom: 12rem;
-    right: 50%;
-    margin-right: -24px;
+    right: 10%;
+    margin-right: -10px;
   }
   .cl-go-top::before,
   .cl-go-top::after {
