@@ -3297,11 +3297,11 @@ html.no-csstransitions .home-content__main {
   content: "back to top";
   display: inline-block;
   width: 120px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 30px;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-  color: rgba(255, 255, 255, 0.15);
+  color: rgba(230, 0, 0, 0.5);
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   -webkit-transform: rotate(-90deg);
