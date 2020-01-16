@@ -17,8 +17,9 @@
  * ===============================================================================*/
 @font-face {
     font-family: 'covesbold';
-    src: url('coves_bold-webfont.woff2') format('woff2'),
-         url('coves_bold-webfont.woff') format('woff');
+    src: url("/fonts/Coves/coves_bold-webfont.woff2") format('woff2'),
+         url("/fonts/Coves/coves_bold-webfont.woff") format('woff'),
+         url("/fonts/Coves/Coves Bold.otf") format('opentype');
     font-weight: normal;
     font-style: normal;
 
@@ -29,8 +30,9 @@
 
 @font-face {
     font-family: 'coveslight';
-    src: url('coves_light-webfont.woff2') format('woff2'),
-         url('coves_light-webfont.woff') format('woff');
+    src: url("/fonts/Coves/coves_light-webfont.woff2") format('woff2'),
+         url("/fonts/Coves/coves_light-webfont.woff") format('woff'),
+         url("/fonts/Coves/Coves Light.otf") format('opentype');
     font-weight: normal;
     font-style: normal;
 
