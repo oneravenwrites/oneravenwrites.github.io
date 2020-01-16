@@ -2230,7 +2230,6 @@ html.no-csstransitions .home-content__main {
 .s-about {
   padding-top: 18rem;
   padding-bottom: 18rem;
-  background-color: #ffffff;
   position: relative;
 }
 
@@ -2459,6 +2458,88 @@ html.no-csstransitions .home-content__main {
   }
 
   .services-list [class*="col-"]:nth-child(n) {
+    padding: 0;
+  }
+}
+
+
+
+/* ===================================================================
+ * # design
+ *
+ * ------------------------------------------------------------------- */
+.s-design {
+  padding-top: 18rem;
+  padding-bottom: 18rem;
+  color: #555555;
+  background-color: #ffffff;
+  position: relative;
+}
+
+
+/* ------------------------------------------------------------------- 
+ * ## design list
+ * ------------------------------------------------------------------- */
+.design-list {
+  margin-top: 6rem;
+}
+.design-list .design-item {
+  margin-bottom: 1.5rem;
+}
+.design-list .design-item h3 {
+  margin-top: 0;
+  margin-bottom: 1.8rem;
+}
+.design-list .design-icon {
+  color: #bf0000;
+  font-size: 4.8rem;
+}
+
+
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * design
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width: 1200px) {
+  .s-design {
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+  }
+
+  .design-list [class*="col-"]:nth-child(2n + 1) {
+    padding-right: 30px;
+  }
+  .design-list [class*="col-"]:nth-child(2n + 2) {
+    padding-left: 30px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .s-design {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+
+  .design-list {
+    margin-top: 3rem;
+  }
+  .design-list .design-icon {
+    font-size: 4.5rem;
+  }
+  .design-list [class*="col-"]:nth-child(n) {
+    padding: 0 15px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .design-list [class*="col-"]:nth-child(n) {
+    padding: 0 10px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .s-design {
+    padding-top: 9.6rem;
+  }
+
+  .design-list [class*="col-"]:nth-child(n) {
     padding: 0;
   }
 }
