@@ -281,7 +281,7 @@ abbr {
 }
 
 var, kbd, samp, code, pre {
-  font-family: Consolas, "Andale Mono", Courier, "Courier New", monospace;
+  font-family: "Coves", Consolas, "Andale Mono", Courier, "Courier New", monospace;
 }
 
 pre {
@@ -1623,16 +1623,55 @@ input::-moz-focus-inner {
     right: 60px;
   }
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) and (orientation: landscape) {
   .header-logo {
     left: 40px;
   }
 
+  .header-logo img {
+    width: 350px;
+    height: 160px;
+  }
+  
   .header-menu-toggle {
     right: 40px;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) and (orientation: portrait) {
+  .header-logo {
+    left: 40px;
+  }
+
+  .header-logo img {
+    width: 350px;
+    height: 160px;
+  }
+  
+  .header-menu-toggle {
+    right: 40px;
+  }
+}
+@media only screen and (max-width: 600px) and (orientation: landscape) {
+  .s-header {
+    height: 90px;
+    top: 12px;
+  }
+
+  .header-logo {
+    left: 30px;
+  }
+  .header-logo img {
+    width: 250px;
+    height: 114px;
+  }
+
+  .header-menu-toggle {
+    right: 25px;
+    top: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) and (orientation: portrait) {
   .s-header {
     height: 90px;
     top: 12px;
@@ -1656,7 +1695,27 @@ input::-moz-focus-inner {
     display: none;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) and (orientation: landscape)  {
+  .s-header {
+    top: 6px;
+  }
+
+  .header-logo {
+    left: 25px;
+  }
+  .header-logo img img {
+    width: 200px;
+    height: 91px;
+  }
+
+  .header-menu-toggle {
+    top: 24px;
+    right: 20px;
+  }
+}
+
+
+@media only screen and (max-width: 400px) and (orientation: portrait)  {
   .s-header {
     top: 6px;
   }
