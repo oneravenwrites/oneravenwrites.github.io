@@ -188,6 +188,7 @@ p.lead {
   font-family: "covesbold", sans-serif;
   font-size: 2.4rem;
   line-height: 1.75;
+  text-align: justify;
   margin-bottom: 3.6rem;
   color: rgba(85, 85, 85, 0.95);
 }
