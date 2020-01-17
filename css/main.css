@@ -2338,7 +2338,7 @@ html.no-csstransitions .home-content__main {
   width: 48px;
   line-height: 48px;
   border-radius: 50%;
-  box-shadow: 0 0 0 18px #ffffff;
+  /* box-shadow: 0 0 0 18px #ffffff; */
   position: absolute;
   left: 20px;
   top: 0;
