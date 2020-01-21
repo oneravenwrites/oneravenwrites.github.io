@@ -2326,7 +2326,7 @@ html.no-csstransitions .home-content__main {
   position: relative;
   min-height: 24.6rem;
 }
-/*-- .process__col::before {
+.process__col::before {
   content: attr(data-item);
   display: block;
   font-family: "covesbold", sans-serif;
@@ -2338,10 +2338,10 @@ html.no-csstransitions .home-content__main {
   width: 48px;
   line-height: 48px;
   border-radius: 50%;
-  /* box-shadow: 0 0 0 18px #ffffff; 
+  /* box-shadow: 0 0 0 18px #ffffff; */
   position: absolute;
   left: 20px;
-  top: 0;*/
+  top: 0;
 }
 .process__text {
   margin-left: 7.5rem;
