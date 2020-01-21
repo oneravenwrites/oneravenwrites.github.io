@@ -282,10 +282,10 @@
     var clAOS = function() {
         
         AOS.init( {
-            offset: 200,
-            duration: 600,
+            offset: 100,
+            duration: 400,
             easing: 'ease-in-sine',
-            delay: 300,
+            delay: 200,
             once: true,
             disable: 'mobile'
         });
