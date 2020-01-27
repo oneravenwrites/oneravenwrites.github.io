@@ -1854,7 +1854,7 @@ input::-moz-focus-inner {
 }
 @media only screen and (max-width: 400px) and (orientation: landscape)  {
   .s-header-bio {
-    top: 20px;
+    top: 6px;
   }
 
   .header-logo-bio {
@@ -1874,7 +1874,7 @@ input::-moz-focus-inner {
 
 @media only screen and (max-width: 400px) and (orientation: portrait)  {
   .s-header-bio {
-    top: 20px;
+    top: 6px;
   }
 
   .header-logo-bio {
