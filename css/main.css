@@ -1355,6 +1355,32 @@ input::-moz-focus-inner {
   height: 408px;
 }
 
+/* For Bio page */
+.header-logo-bio 
+{
+  z-index: 5;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 110px;
+  top: 10%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.header-logo-bio a {
+  display: block;
+  padding: 0;
+  outline: 0;
+  border: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.header-logo-bio img {
+  width: 300px;
+  height: 136px;
+}
 
 /* ------------------------------------------------------------------- 
  * ## main navigation 
