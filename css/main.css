@@ -1805,6 +1805,41 @@ input::-moz-focus-inner {
 }
 
 
+/*For bio page */
+
+.s-home-bio {
+  width: 100%;
+  height: 30%;
+  /*min-height: 786px;*/
+  background-color: transparent;
+  position: relative;
+  display: table;
+}
+.s-home-bio .shadow-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30%;
+  opacity: 0.4;
+  background: linear-gradient(to right, black 0%, black 20%, transparent 100%);
+}
+.s-home-bio::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30%;
+  opacity: 0.65;
+  background-color: #000000;
+}
+
+.no-js .s-home-bio {
+  background: #000000;
+}
+
 /* ------------------------------------------------------------------- 
  * ## home content
  * ------------------------------------------------------------------- */
