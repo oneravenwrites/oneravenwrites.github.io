@@ -1811,7 +1811,7 @@ input::-moz-focus-inner {
 @media only screen and (max-width: 600px) and (orientation: landscape) {
   .s-header-bio {
     height: 70px;
-    top: 8px;
+    top: 15px;
   }
 
   .header-logo-bio {
@@ -1831,7 +1831,7 @@ input::-moz-focus-inner {
 @media only screen and (max-width: 600px) and (orientation: portrait) {
   .s-header-bio {
     height: 70px;
-    top: 8px;
+    top: 20px;
   }
 
   .header-logo-bio {
@@ -1854,7 +1854,7 @@ input::-moz-focus-inner {
 }
 @media only screen and (max-width: 400px) and (orientation: landscape)  {
   .s-header-bio {
-    top: 6px;
+    top: 10px;
   }
 
   .header-logo-bio {
@@ -1874,7 +1874,7 @@ input::-moz-focus-inner {
 
 @media only screen and (max-width: 400px) and (orientation: portrait)  {
   .s-header-bio {
-    top: 6px;
+    top: 10px;
   }
 
   .header-logo-bio {
@@ -1936,7 +1936,7 @@ input::-moz-focus-inner {
 
 .s-home-bio {
   width: 100%;
-  height: 30%;
+  height: 40%;
   /*min-height: 786px;*/
   background-color: transparent;
   position: relative;
@@ -1947,7 +1947,7 @@ input::-moz-focus-inner {
   top: 0;
   left: 0;
   width: 100%;
-  height: 30%;
+  height: 40%;
   opacity: 0.4;
   background: linear-gradient(to right, black 0%, black 20%, transparent 100%);
 }
@@ -1958,7 +1958,7 @@ input::-moz-focus-inner {
   top: 0;
   left: 0;
   width: 100%;
-  height: 30%;
+  height: 40%;
   opacity: 0.65;
   background-color: #000000;
 }
