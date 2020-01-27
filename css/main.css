@@ -1767,6 +1767,133 @@ input::-moz-focus-inner {
 }
 
 
+/*For bio page
+* responsive:
+ * header
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width: 1600px) {
+  .header-logo-bio {
+    left: 60px;
+  }
+
+  .header-menu-toggle {
+    right: 60px;
+  }
+}
+@media only screen and (max-width: 800px) and (orientation: landscape) {
+  .header-logo-bio {
+    left: 30px;
+  }
+
+  .header-logo-bio img {
+    width: 175px;
+    height: 80px;
+  }
+  
+  .header-menu-toggle {
+    right: 40px;
+  }
+}
+@media only screen and (max-width: 800px) and (orientation: portrait) {
+  .header-logo-bio {
+    left: 30px;
+  }
+
+  .header-logo-bio img {
+    width: 175px;
+    height: 80px;
+  }
+  
+  .header-menu-toggle {
+    right: 40px;
+  }
+}
+@media only screen and (max-width: 600px) and (orientation: landscape) {
+  .s-header-bio {
+    height: 70px;
+    top: 8px;
+  }
+
+  .header-logo-bio {
+    left: 20px;
+  }
+  .header-logo-bio img {
+    width: 125px;
+    height: 57px;
+  }
+
+  .header-menu-toggle {
+    right: 25px;
+    top: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) and (orientation: portrait) {
+  .s-header-bio {
+    height: 70px;
+    top: 8px;
+  }
+
+  .header-logo-bio {
+    left: 20px;
+  }
+  .header-logo-bio img {
+    width: 125px;
+    height: 57px;
+  }
+
+  .header-menu-toggle {
+    right: 25px;
+    top: 30px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .header-menu-toggle::before {
+    display: none;
+  }
+}
+@media only screen and (max-width: 400px) and (orientation: landscape)  {
+  .s-header-bio {
+    top: 6px;
+  }
+
+  .header-logo-bio {
+    left: 15px;
+  }
+  .header-logo-bio img img {
+    width: 100px;
+    height: 45px;
+  }
+
+  .header-menu-toggle {
+    top: 24px;
+    right: 20px;
+  }
+}
+
+
+@media only screen and (max-width: 400px) and (orientation: portrait)  {
+  .s-header-bio {
+    top: 6px;
+  }
+
+  .header-logo-bio {
+    left: 15px;
+  }
+  .header-logo-bio img img {
+    width: 100px;
+    height: 45px;
+  }
+
+  .header-menu-toggle {
+    top: 24px;
+    right: 20px;
+  }
+}
+
+
+
+
 /* ===================================================================
  * # home
  *
