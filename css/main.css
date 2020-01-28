@@ -1326,6 +1326,14 @@ input::-moz-focus-inner {
   top: 24px;
 }
 
+.s-header-bio {
+  z-index: 500;
+  width: 100%;
+  height: 96px;
+  background-color: transparent;
+  position: absolute;
+  top: 24px;
+}
 
 /* -------------------------------------------------------------------
  * ## header logo
