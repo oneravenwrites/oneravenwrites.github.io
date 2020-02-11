@@ -2486,6 +2486,70 @@ html.no-csstransitions .home-content__main {
 
 
 
+
+/* ===================================================================
+ * # realestate
+ *
+ * ------------------------------------------------------------------- */
+.s-realestate {
+  padding-top: 18rem;
+  padding-bottom: 18rem;
+  color: #555555;
+  position: relative;
+}
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * realestate
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width: 1200px) {
+  .s-realestate {
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+  }
+
+  .realestate-list [class*="col-"]:nth-child(2n + 1) {
+    padding-right: 30px;
+  }
+  .realestate-list [class*="col-"]:nth-child(2n + 2) {
+    padding-left: 30px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .s-realestate {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+
+  .realestate-list {
+    margin-top: 3rem;
+  }
+  .realestate-list .realestate-icon {
+    font-size: 4.5rem;
+  }
+  .realestate-list [class*="col-"]:nth-child(n) {
+    padding: 0 15px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .realestate-list [class*="col-"]:nth-child(n) {
+    padding: 0 10px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .s-realestate {
+    padding-top: 9.6rem;
+  }
+
+  .realestate-list [class*="col-"]:nth-child(n) {
+    padding: 0;
+  }
+}
+
+
+
+
+
+
 /* ===================================================================
  * # about
  *
