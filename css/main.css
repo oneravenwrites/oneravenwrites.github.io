@@ -1379,7 +1379,7 @@ input::-moz-focus-inner {
 }
 .header-logo-bio a {
   display: block;
-  padding: 10;
+  padding: 0;
   outline: 0;
   border: none;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1791,7 +1791,7 @@ input::-moz-focus-inner {
 @media only screen and (max-width: 800px) and (orientation: landscape) {
   .header-logo-bio {
     left: 30px;
-    top: 30px;
+    top: 40px;
   }
 
   .header-logo-bio img {
@@ -1806,7 +1806,7 @@ input::-moz-focus-inner {
 @media only screen and (max-width: 800px) and (orientation: portrait) {
   .header-logo-bio {
     left: 30px;
-    top: 30px;
+    top: 40px;
   }
 
   .header-logo-bio img {
@@ -1821,7 +1821,7 @@ input::-moz-focus-inner {
 @media only screen and (max-width: 600px) and (orientation: landscape) {
   .s-header-bio {
     height: 70px;
-    top: 30px;
+    top: 40px;
   }
 
   .header-logo-bio {
@@ -1957,7 +1957,7 @@ input::-moz-focus-inner {
   top: 0;
   left: 0;
   width: 100%;
-  height: 40%;
+  height: 50%;
   opacity: 0.4;
   background: linear-gradient(to right, black 0%, black 20%, transparent 100%);
 }
