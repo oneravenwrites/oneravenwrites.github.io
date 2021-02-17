@@ -234,6 +234,8 @@ blockquote {
   margin: 3.9rem 0;
   padding-left: 4.5rem;
   position: relative;
+   width:auto;
+    display:table
 }
 
 
